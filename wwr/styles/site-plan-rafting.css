@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap')
 root {
-  --primary-color: #XXXXXX;
-  --secondary-color: #XXXXXX;
-  --accent1-color: #XXXXXX;
-  --accent2-color: #XXXXXX;
+  --primary-color: #ff0022;
+  --secondary-color: #011627;
+  --accent1-color: #41ead4;
+  --accent2-color: #fdfffc;
 
   --heading-font: '______', serif;
   --paragraph-font: '______', serif;
 
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+  --nav-background-color: #b91372;
+  --nav-link-color: #011627;
+  --nav-hover-link-color: #ff0022;
+  --nav-hover-background-color: #b91372;
 }
 body {
   max-width: 960px;
@@ -49,3 +49,4 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
