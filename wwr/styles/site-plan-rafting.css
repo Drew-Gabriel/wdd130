@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap')
-root {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
   --primary-color: #ff0022;
   --secondary-color: #011627;
   --accent1-color: #41ead4;
   --accent2-color: #fdfffc;
 
-  --heading-font: '______', serif;
-  --paragraph-font: '______', serif;
+  --heading-font: 'Noto Serif', serif;
+  --paragraph-font: 'Noto Serif', serif;;
 
   --nav-background-color: #b91372;
   --nav-link-color: #011627;
