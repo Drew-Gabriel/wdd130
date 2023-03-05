@@ -17,35 +17,35 @@ body {
   padding: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
+  font-family:'Noto Serif', serif;
+  color:#ff0022;
 }
 header {
   padding: 20px;
-  background-color: var(--accent1-color);
+  background-color: #41ead4;
 }
 p {
   padding: 25px;
 }
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #b91372;
   font-size: 1.2rem;
   display: flex;
 }
 
 nav a {
   display: block;
-  color: var(--nav-link-color);
+  color: #ff0022;
   text-decoration: none;
   padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: #ff0022;
 }
 
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #ff0022;
+  background-color: #b91372;
 }
 
