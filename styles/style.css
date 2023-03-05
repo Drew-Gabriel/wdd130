@@ -1,1 +1,22 @@
+aside {
+  width:200px;
+  height: auto;
+  margin: 200px;
+  border: ;
+  padding: ;
+  background-color:#031126;
+  color:#6e1515;
+}
+main img {
+  width: 150px;
+  height: auto;
+  ...
+}
+p { padding: 0;
+}
 
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
