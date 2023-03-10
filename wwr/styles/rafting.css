@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
-  --primary-color: #ff0022;
-  --secondary-color: #011627;
-  --accent1-color: #41ead4;
-  --accent2-color: #fdfffc;
+  --primary-color: #0c0a3e;
+  --secondary-color: #7b1e7a;
+  --accent1-color: #b33f62;
+  --accent2-color: #f9564f;
 
   --heading-font: 'Noto Serif', serif;
   --paragraph-font: 'Noto Serif', serif;;
 
-  --nav-background-color: #b91372;
-  --nav-link-color: #011627;
-  --nav-hover-link-color: #ff0022;
-  --nav-hover-background-color: #b91372;
+  --nav-background-color: #f3c677;
+  --nav-link-color: #0c0a3e;
+  --nav-hover-link-color: #b33f62;
+  --nav-hover-background-color: #f9564f;
 
 
 nav a{
@@ -38,7 +38,7 @@ main section{
     
 }
 body {
-    background-color: #fdfffc;
+    background-color: #f9564f;
     color: aliceblue;
     font-size: 22px;
     margin: 0;
@@ -47,7 +47,7 @@ body {
 
 }
 header { 
-   background-color: #011627;;
+   background-color: #7b1e7a;
    color: ;
 }
 
@@ -70,7 +70,7 @@ header {
     color: antiquewhite;
 }
 footer {
-    background-color: #41ead4;
+    background-color: #0c0a3e;
     color: aliceblue;
     font-size: 1.2rem;
     padding: ;
