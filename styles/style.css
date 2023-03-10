@@ -1,11 +1,12 @@
 aside img {
-  width:200px;
+  width:20em;
   height: auto;
   margin: 200px;
   border: ;
   padding: ;
   background-color:#031126;
   color:#6e1515;
+  text-alingn: center ;
 }
 main img {
   width: 150px;
@@ -20,4 +21,20 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
+
+wildcard {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Class Selectors */
+
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
+
 
