@@ -47,6 +47,32 @@ body {
 
 }
 header { 
-   background-color: brown;
-   color: aliceblue;
+   background-color: #011627;;
+   color: ;
 }
+
+}
+
+.msg {
+    background-color: #011627;
+    color: aliceblue;
+    line-height: 1.5;
+    padding: 35px;
+	
+
+}
+.msg p {
+    color: antiquewhite;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 15px;
+}
+.msg h2 {
+    color: antiquewhite;
+}
+footer {
+    background-color: #41ead4;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: ;
+    margin-top: ;
+    align-items: center;
