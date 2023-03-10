@@ -5,7 +5,7 @@ aside img {
   border: ;
   padding: ;
   background-color:#031126;
-  color:#6e1515;
+  color:#6b1711;
   text-alingn: center ;
 }
 main img {
@@ -19,7 +19,7 @@ p { padding: 0;
 
 footer {
   margin-top: 1em;
-  border-top: 1px solid #000;
+  border-top: 1px solid #204526;
   text-align: center;
 }
 
@@ -32,10 +32,10 @@ wildcard {
 
 .box {
   margin: 1rem;
-  border: 1px solid rgba(0,0,0,.1);
+  border: 1px solid #204526;
   padding: 1rem;
-  background -color: #ddd;
-  color: #000;
+  background -color: #202645;
+  color: #8c8241;
 }
 
 aside h2 {
