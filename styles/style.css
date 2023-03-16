@@ -74,6 +74,7 @@ main {
 }
 aside {
   width: 20rem;
+  text-align: center  ; 
   position: relative;
   grid-column: 1/2;
   grid-row: 1/2;
