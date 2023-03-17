@@ -76,3 +76,15 @@ footer {
     padding: ;
     margin-top: ;
     align-items: center;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hero p{
+ Float: right;
+}
+.hero h1{
+  
+}
