@@ -23,19 +23,8 @@ nav a{
     text-align: center;
 	  color: white;
 }
-nav {
-	display: flex;
-	justify-content: space-around;
-}
-nav a:hover {
-    background-color: #0c0a3e;
-    color: brown;
-}
-nav a {
-    color: #7b1e7a;
-    text-decoration: none;
-    padding: 35px;
-}
+
+
 .button-box{
     text-align: center;
 }
@@ -64,33 +53,6 @@ header {
    background-color: #7b1e7a;
    color: brown;
 }
-
-}
-
-.msg {
-    background-color: #011627;
-    color: aliceblue;
-    line-height: 1.5;
-    padding: 35px;
-	
-
-}
-.msg p {
-    color: antiquewhite;
-    font-family: 'Merriweather', serif;
-    padding-bottom: 15px;
-}
-.msg h2 {
-    color: antiquewhite;
-}
-footer {
-    background-color: #0c0a3e;
-    color: aliceblue;
-    font-size: 1.2rem;
-    padding: ;
-    margin-top: ;
-    align-items: center;
-}
 .hero img {
   display: block;
   width: 100%;
@@ -102,3 +64,13 @@ footer {
 .hero h1{
    position: absolute;
 }
+
+footer {
+    background-color: #0c0a3e;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: ;
+    margin-top: ;
+    align-items: center;
+}
+
