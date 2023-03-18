@@ -16,7 +16,9 @@
 nav a{
     text-align: center;
 }
-#hero-msg h1,
+#hero-msg h1 {
+    position: absolute;
+}
 #hero-msg h2,
 #hero-msg h3,
 #hero-msg h4 {
@@ -63,6 +65,13 @@ header {
 }
 .hero h1{
    position: absolute;
+}
+.article {
+   background-color: #b33f62;
+   position: absolute; 
+}
+article-img {
+    float: right;
 }
 
 footer {
