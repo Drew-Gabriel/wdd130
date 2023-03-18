@@ -55,6 +55,9 @@ header {
    background-color: #7b1e7a;
    color: brown;
 }
+.hero {
+  position: relative;
+}
 .hero img {
   display: block;
   width: 100%;
@@ -70,8 +73,10 @@ header {
    background-color: #b33f62;
    position: absolute; 
 }
-article-img {
+.article img {
     float: right;
+}
+article p {
 }
 
 footer {
