@@ -26,7 +26,16 @@ nav a{
 nav {
 	display: flex;
 	justify-content: space-around;
-
+}
+nav a:hover {
+    background-color: #0c0a3e;
+    color: brown;
+}
+nav a {
+    color: #7b1e7a;
+    text-decoration: none;
+    padding: 35px;
+}
 .button-box{
     text-align: center;
 }
