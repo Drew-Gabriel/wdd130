@@ -23,6 +23,9 @@ nav a{
     text-align: center;
 	  color: white;
 }
+nav {
+	display: flex;
+	justify-content: space-around;
 
 .button-box{
     text-align: center;
@@ -47,8 +50,10 @@ body {
 
 }
 header { 
+   display: grid;
+   grid-template-columns: 150px auto;
    background-color: #7b1e7a;
-   color: ;
+   color: brown;
 }
 
 }
