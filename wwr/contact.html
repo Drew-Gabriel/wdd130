@@ -1,19 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WDD 130 | HTML Form </title>
-</head>
-<body>
-<header>
-  <h1>WDD 130 | Gabriel Benson | HTML Form</h1>
-</header>
-<main>
+<html lang="en">
 
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Whitewater Rafting  | Drew| Home</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <div id="content">
+      <header>
+    <a id="logo_link" href="index.html">
+        <img class="logo" src="images/water.JPG" alt="Water Logo">
+    </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="trips.html">trips </a>
+        <a href="site-plan-rafting.html">Site Plan</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+  <main>
+  <form>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <!-- form elements will go here -->
+    </fieldset>
+    <fieldset>
+      <legend>Questions</legend>
+      <!-- form elements will go here -->
+    </fieldset>
+  </form>
+<form>
+  <fieldset>
+    <legend>Contact Information</legend>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname">
+    <label for="email">Email:</label>
+    <input type="email" id="useremail" name="useremail">
+  </fieldset>
+
+</form>
+<fieldset>
+          <legend>Questions</legend>
+          <label for="browser">What is your favorite internet browser?</label>
+          <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="edge">Edge</option>
+            <option value="brave">Brave</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="pet">Do you have a household pet?</label>
+          <input type="checkbox" id="pet" name="pet">
+          <label for="feedback">List the places you have lived:</label>
+          <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali">></textarea>
+        </fieldset>
+<button type="submit">Submit Poll</button>
 </main>
-<footer>
-  <p>©2023| HTML Form - User Poll Activity | Your Name</p>
+
+        <footer>
+    <p>Water rafting ©️ 2023 - Gabriel Benson</p>
+    <nav class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.jpg" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.jpg" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram .jpg " alt="instagram icon">
+        </a>
+    </nav>
 </footer>
+    </div>
 </body>
+
 </html>
