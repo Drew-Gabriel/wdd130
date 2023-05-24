@@ -1,5 +1,8 @@
- main {
-  max-width: 800px;
+main {
+  max-width: 840px
+  grid-column: 2/3;
+  margin: 1rem;
+
 }
 
 
@@ -7,9 +10,12 @@ aside {
   width: 20em;
   text-align: center;
   position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: %100;
+
 }
 aside img {
-  width: 200px;
   height: auto;
 }
 
@@ -17,7 +23,7 @@ main img {
   width: 150px;
   height: auto;
   float: right;
-  /* Existing CSS styles for the main img selector */
+  
 }
 
 p {
@@ -47,12 +53,12 @@ footer {
   border-top: 1px solid #ccc;
   text-align: center;
 }
-header, .grid, footer {
+header, footer {
   max-width: 840px;
   margin: 0 auto;
 }
 
-nav {
+.nav {
   background-color: steelblue;
   padding: 1rem;
   display: flex;
@@ -69,20 +75,20 @@ nav a {
   color: #fff;
 }
 
-.grid {
-  display: grid;
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
   align-items: center;
 }
-
-main {
-  grid-column: 2/3;
-  margin: 1rem;
+h1 {
+  border-bottom: 1px solid black;
 }
 
-aside {
-  width: 20rem;
-  position: relative;
-  grid-column: 1/2;
-  grid-row: 1/2;
+header .grid,
+footer .grid {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
+.profile-image {
+  float: right;
