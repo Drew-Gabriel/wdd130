@@ -1,82 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Whitewater Rafting  | Drew| Home</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact us</title>
+        <link rel="stylesheet" href="styles/rafting.css">
+
 </head>
 
 <body>
-    <div id="content">
-      <header>
-    <a id="logo_link" href="index.html">
-        <img class="logo" src="images/water.JPG" alt="Water Logo">
-    </a>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="trips.html">trips </a>
-        <a href="site-plan-rafting.html">Site Plan</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+<header>
+   <a id="logo_link" href="about.html">
+     <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+      <nav>
+        <a href="about.html">about</a>
+        <a href="trips.html">trips</a>
+        <a href="contact.html">contact us</a>
+      </nav>
 </header>
-  <main>
-  <form>
-    <fieldset>
-      <legend>Contact Information</legend>
-      <!-- form elements will go here -->
-    </fieldset>
-    <fieldset>
-      <legend>Questions</legend>
-      <!-- form elements will go here -->
-    </fieldset>
-  </form>
-<form>
-  <fieldset>
-    <legend>Contact Information</legend>
-    <label for="fullname">Full Name:</label>
-    <input type="text" id="fullname" name="fullname">
-    <label for="email">Email:</label>
-    <input type="email" id="useremail" name="useremail">
-  </fieldset>
+<main>
+   <h1>Contact Us</h1>
 
-</form>
-<fieldset>
-          <legend>Questions</legend>
-          <label for="purpose">What is the purpose for your internet in our website?</label>
-          <select id="purpose" name="purpose">
-            <option value="inquiry">General Inquiry</option>
-            <option value="question">Reservation Question</option>
-            <option value="suggestion">Website Suggestion</option>
-            <option value="learning">To Learn </option>
-          </select>
-          <label for="subscribe">Please subscribe me to the monthly newsletter?</label>
-          <input type="checkbox" id="subscribe" name="subscribe">
-          <label for="feedback">Drop any message for us:</label>
-          <textarea id="feedback" name="feedback" rows="4" placeholder="Fill here"></textarea>
-        </fieldset>
-<button type="submit">Submit Here</button>
-</main>
-
-        <footer>
-    <p>Water rafting ©️ 2023 - Gabriel Benson</p>
-    <nav class="social">
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.jpg" alt="fb icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.jpg" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram .jpg " alt="instagram icon">
-        </a>
-    </nav>
-</footer>
+  <section>
+    <h2>Company Information</h2>
+    <p>Address: 16 water rail lekki island, Lagos City, Lagos State 30001</p>
+    <p>Phone: +2348169506131</p>
+    <p>Email: gabjaz@gmail.com</p>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-73.1234567!3d40.9876543!4m15!1m13!4m12!1m3!2m2!1d123.456789!2d-73.9876543!5e0!3m2!1sen!2sus!4v9876543210987" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-</body>
+  </section>
 
-</html>
+  <section>
+    <h2>Employee Profiles</h2>
+    <figure>
+      <img src="employee1.jpg" alt="Employee 1">
+      <figcaption>Michael  - Title: Director</figcaption>
+    </figure>
+    <figure>
+      <img src="employee2.jpg" alt="Employee 2">
+      <figcaption>Precious - Title: Manager</figcaption>
+    </figure>
+    <figure>
+      <img src="employee3.jpg" alt="Employee 3">
+      <figcaption>Drew - Title: Head of department </figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Contact Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="purpose">Purpose of Message:</label>
+      <select id="purpose" name="purpose" required>
+        <option value="">Select an option</option>
+        <option value="general">General Inquiry</option>
+        <option value="reservation">Reservation Question</option>
+        <option value="suggestion">Website Suggestion</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+      <label for="newsletter">
+        <input type="checkbox" id="newsletter" name="newsletter">
+        Please subscribe me to the monthly newsletter
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
+</main>
+<footer>
+  <p> © 2023 Rafting Company Gabriel Benson</p>
+   <nav ="social">
+     <a href="https://facebook.com" target="_blank">
+       <img src="images/facebook.PNG" alt="fb icon">
+     </a>
+     <a href="https://twitter.com" target="_blank">
+       <img src="images/twitter.PNG" alt="twitter icon">
+     </a>
+     <a href="https://instagram.com" target="_blank">
+       <img src="images/instagram.PNG" alt="instagram icon">
+     </a>
+   </nav>
+   </footer>
+</body>
+    </html>
