@@ -1,71 +1,25 @@
-main {
-  max-width: 840px
-  grid-column: 2/3;
-  margin: 1rem;
-
-}
-
-
-aside {
-  width: 20em;
-  text-align: center;
-  position: relative;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  height: %100;
-
-}
-aside img {
-  height: auto;
-}
-
-main img {
-  width: 150px;
-  height: auto;
-  float: right;
-  
-}
-
-p {
-  padding: 0;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Class Selectors */
 
 .box {
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, .1);
   padding: 1rem;
-  background-color: #81AAE6;
+  background-color: #81AAE8;
   color: #000;
+  border: 1px solid #ccc;
 }
-aside h2 {
-  position: absolute;
-  top: 47px;
-  left: 150px;
-}
-footer {
-  margin-top: 20px;
-  border-top: 1px solid #ccc;
-  text-align: center;
-}
+
 header, footer {
   max-width: 840px;
   margin: 0 auto;
 }
 
-.nav {
+nav {
   background-color: steelblue;
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-
 nav a {
   display: block;
   padding: 0.5rem;
@@ -75,20 +29,73 @@ nav a {
   color: #fff;
 }
 
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-  align-items: center;
-}
+
 h1 {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
+ .grid {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   align-items: center;
+ }
+main img {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+aside {
+  width: 20em;
+  text-align: center;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+}
+
+
+aside h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #B1DB97;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+main {
+  max-width: 800px;
+  grid-column: 2/3;
+  margin: 1rem;
+  
+}
+p {
+  padding: 0;
+}
+aside img {
+  height: auto;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  float: right;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header .grid,
 footer .grid {
   max-width: 840px;
   margin: 0 auto;
 }
-
-.profile-image {
-  float: right;
