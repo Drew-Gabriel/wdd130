@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 :root {
   --font-family: 'Montserrat', sans-serif;
   --primary-color: #ff0022;
@@ -95,22 +98,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
   gap: 20px;
 }
 
-.adventures figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.adventures img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.adventures figcaption {
-  margin-top: 10px;
-  text-align: center;
-}
 
 header {
   display: grid;
@@ -141,22 +128,8 @@ footer {
   align-items: center;
   color: #fdfffc;
   background-color: #ff0022;
-      font-size: 1.2rem;
-	padding: 25px 50px;
-    margin-top: 200px;
 }
 
-.footer .social-images {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.footer .social-images img {
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
-}
 #history {
   display: flex;
   align-items: center;
@@ -167,13 +140,67 @@ footer {
 #history img#history-image {
   display: block;
   margin: 0 10px;
-  max-width: 100%;
+  width: 200%;
 }
 
 #history p {
   text-align: center;
   margin: 10px;
 }
+
+
+
+
+
+
+
+
+
+main img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+article img {
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  float: left;
+}
+
+
+#Adventure img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  float: center;
+}
+
+
+figcaption {
+  text-align: center;
+
+}
+
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+
+footer nav img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+
+
+
 
 
 
@@ -242,9 +269,9 @@ button[type="submit"]:hover {
 
 
 
- 
+
     .container {
-      max-width: 800px;
+      width: 800px;
       margin: 0 auto;
       padding: 20px;
     }
@@ -274,7 +301,7 @@ button[type="submit"]:hover {
     }
     
     .trip-image {
-      max-width: 100%;
+      width: 100%;
       height: auto;
       margin-bottom: 10px;
       align-items: center;
@@ -357,4 +384,3 @@ button[type="submit"]:hover {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap:
-}
