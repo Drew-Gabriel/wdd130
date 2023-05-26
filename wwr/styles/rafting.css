@@ -135,12 +135,15 @@ nav {
   color: #000;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: #fdfffc;
   background-color: #ff0022;
+      font-size: 1.2rem;
+	padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .footer .social-images {
