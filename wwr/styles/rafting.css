@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 content {
-  max-width: 1600px;
+  max-width: 840px;
   margin: 0 auto;
 }
 :root {
@@ -92,7 +92,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
 }
 
 
-.adventures {
+#adventure {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
@@ -171,11 +171,33 @@ article img {
 }
 
 
-#Adventure img {
+
+
+#adventure {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#adventure h2 {
+  text-align: center;
+}
+
+#adventure figure {
+  margin: 0;
+}
+
+#adventure img {
+  display: block;
   width: 100px;
   height: auto;
-  margin: 10px;
-  float: center;
+  margin: 0 auto;
+}
+
+#adventure figcaption {
+  text-align: center;
 }
 
 
@@ -198,24 +220,10 @@ footer nav img {
 }
 
 
-
-
-
-
-
-
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.5;
-  background-color: #fdfffc;
 }
 
 h1,
