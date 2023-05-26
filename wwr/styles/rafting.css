@@ -13,6 +13,7 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #41ead4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -139,6 +140,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   color: #fdfffc;
+  background-color: #ff0022;
 }
 
 .footer .social-images {
@@ -230,3 +232,126 @@ button[type="submit"]:hover {
   background-color: #fdfffc;
 }
 
+
+
+
+
+
+
+
+ /* CSS for styling the page */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background-color: #337ab7;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    
+    .trip {
+      margin-bottom: 30px;
+    }
+    
+    .trip-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .trip-description {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    .trip-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    #background {
+      background-color: #ff0022;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    section.newsletter {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    section.newsletter h2 {
+      margin-bottom: 20px;
+    }
+    
+    section.newsletter form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    section.newsletter label {
+      margin-right: 10px;
+    }
+    
+    section.newsletter input[type="text"],
+    section.newsletter input[type="email"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    
+    section.newsletter button {
+      padding: 10px 20px;
+      background-color: #f44336;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    section.cta {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    section.cta h2 {
+      margin-bottom: 20px;
+    }
+    
+    section.cta a {
+      color: #f44336;
+    }
+    
+    section.grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap:
+}
