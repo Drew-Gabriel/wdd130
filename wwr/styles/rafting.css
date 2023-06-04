@@ -84,7 +84,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
   float: right;
   width: 50%;
 }
-
+article{
+position:absolute;
+  margin:100px 0px;
+}
 
 .hero article {
   background-color: #011627;;
@@ -164,9 +167,7 @@ main img {
   height: auto;
   margin-bottom: 20px;
 }
-article{
-position:absolute;
-}
+
 
 article img {
   width: 100px;
