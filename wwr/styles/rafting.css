@@ -164,13 +164,15 @@ main img {
   height: auto;
   margin-bottom: 20px;
 }
-article{}
+article{
+position:absolute;
+}
 
 article img {
   width: 100px;
   height: auto;
   margin-right: 20px;
-  float: right;
+  float: left;
 }
 
 
