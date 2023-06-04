@@ -308,7 +308,7 @@ button[type="submit"]:hover {
       margin-bottom: 10px;
     }
     
-    .trip-image {
+    .trip img{
       width: 80px;
       height: auto;
       margin-bottom: 10px;
