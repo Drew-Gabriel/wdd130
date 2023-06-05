@@ -51,7 +51,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
 }
 
 .hero {
-  position: relative;
+  position: absolute;
 }
 
 
@@ -216,13 +216,14 @@ article img {
   margin: 0;
 }
 
-#adventure img {
-  display: block;
-  width: 100px;
+#Adventure img {
+  padding-top: 5px;
+  box-shadow: 5px 5px 10px #6f7364;
+  width: 150px;
   height: auto;
   margin: 10px;
   padding: 10px;
-  box-shadow: 5px 5px 10px #6f7364;
+  float: center;
 }
 
 #adventure figcaption {
