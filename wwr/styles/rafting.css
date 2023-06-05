@@ -52,13 +52,16 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
 
 .hero {
   position: absolute;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 
 .card img {
   display: block;
   width: 50px;
+  height: 70px;
   float: right;
+  
 }
 .card {
   width: 100%;
@@ -83,7 +86,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 3rem;
   font-weight: bold;
-  text-align: center;
+  text-align: top;
 }
 
 .hero article {
@@ -161,6 +164,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 
 #history img {
