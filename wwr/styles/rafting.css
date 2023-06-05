@@ -121,6 +121,9 @@ position:absolute;
 #moses{
 display:flex;
  justify-content:space-around;
+  box-shadow: 5px 5px 10px #6f7364;
+  padding: 10px;
+  margin: 10px;
 }
 
 header {
