@@ -69,7 +69,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
   position: relative;
   padding: 5px;
   margin: 5px;
-  align-items: left; 
+  align-self: center; 
+  justity-self: center;
 }
 
 .card p{
@@ -207,7 +208,7 @@ article img {
 #adventure {
   width: 100%;
   display: grid;
-  justify-content; space-around;
+  justify-content: space-around;
   gap: 5px;
   box-shadow: 5px 5px 10px #6f7364;
   padding: 5px;
