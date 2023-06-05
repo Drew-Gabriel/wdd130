@@ -88,6 +88,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, p a {
   font-size: 3rem;
   font-weight: bold;
   text-align: top;
+  margin-top: 5px;
 }
 
 .hero article {
@@ -149,7 +150,7 @@ footer {
   background-color: #ff0022;
 }
 
-.history {
+#history {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,7 +224,7 @@ article img {
 #Adventure img {
   padding-top: 5px;
   box-shadow: 5px 5px 10px #6f7364;
-  width: 70px;
+  width: 80px;
   height: 50px;
   margin: 5px;
   padding: 5px;
