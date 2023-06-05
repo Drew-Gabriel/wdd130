@@ -149,12 +149,14 @@ footer {
   background-color: #ff0022;
 }
 
-#history {
+.history {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   box-shadow: 5px 5px 10px #6f7364;
+  margin: 5px;
+  padding: 5px;
 }
 
 #history img {
@@ -209,6 +211,8 @@ article img {
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   box-shadow: 5px 5px 10px #6f7364;
+  padding: 5px;
+  margin: 5px;
 }
 .moses {
   display: flex;
