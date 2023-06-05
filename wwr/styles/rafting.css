@@ -116,17 +116,6 @@ position:absolute;
 }
 
 
-#adventure {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-}
-.moses {
-  display: flex;
-  justify-content: space-around;
-  padding-block: 5px;
-  box-shadow: 5px 5px 10px #6f7364;
-}
 
 header {
   display: grid;
@@ -204,13 +193,6 @@ article img {
 
 
 
-#adventure {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
 
 #adventure h2 {
   text-align: center;
@@ -220,11 +202,23 @@ article img {
   margin: 0;
 }
 
+#adventure {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.moses {
+  display: flex;
+  justify-content: space-around;
+  padding-block: 5px;
+  box-shadow: 5px 5px 10px #6f7364;
+}
 #Adventure img {
   padding-top: 5px;
   box-shadow: 5px 5px 10px #6f7364;
-  width: auto;
-  height: auto;
+  width: 50px;
+  height: 50px;
   margin: 10px;
   padding: 10px;
   float: center;
