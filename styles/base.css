@@ -1,55 +1,80 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  
+  main {
+    width: 90%;         
+    margin: 5% auto;    
+    padding: 4vw;       
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+  }
+  
 
+  header {
+    padding: 3vw;       
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 2vw;      
+    font-size: 4vw;      
+  }
+  
 
-main {
-  max-width: 840px; 
-  margin: 20px auto; 
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Styles for the <aside> element */
-aside {
-  width: 20rem; 
-  margin: 1rem; 
-  border: 1px solid rgba(0, 0, 0, 0.2); 
-  padding: 1rem; 
-  background-color: #eee; /* Light gray background */
-  color: #333; /* Dark text color */
-  text-align: center; 
-}
-
-/* Styles for images inside the <aside> element */
-aside img {
-  width: 200px; 
-  height: auto; 
-}
-
-/* Styles for paragraph elements */
-p {
-  padding: 0; 
-  line-height: 1.6; 
-}
-
-/* Styles for the footer */
-footer {
-  margin-top: 15px; 
-  border-top: 1px solid #000; /* Add a top border to the footer */
-  text-align: center; 
-  padding: 10px;
-  background-color: #fff; /* White background for the footer */
-  color: #333; /* Dark text color */
-}
-
-/* Additional image styles for profile images */
-main img {
-  width: 150px; 
-  height: auto; 
-}
-
+  aside {
+    width: 100%;         
+    margin: 2vw 0;      
+    padding: 4vw;        
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+ 
+  aside img {
+    width: 60%;          
+    max-width: 250px;    
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  
+  p {
+    padding: 0;
+    line-height: 1.6;
+    font-size: 4vw;       
+    word-wrap: break-word;
+    margin: 10px 0;
+  }
+  
+ 
+  footer {
+    margin-top: 4vw;     
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 3vw;        
+    background-color: #fff;
+    color: #333;
+    font-size: 3vw;      
+  }
+  
+  
+  main img {
+    width: 25vw;         
+    max-width: 150px;    
+    height: auto;
+    display: block;      
+    margin: 10px auto;   
+  }
