@@ -4,31 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us - Whitewater Rafting</title>
-  
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  
- 
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
- 
   <header>
-    <img src="images/crossedoars.jpeg" alt="Whitewater Rafting Logo" id="logo">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
+    <div class="header-container">
+      <img src="images/crossedoars.jpeg" alt="Whitewater Rafting Logo" id="logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
   </header>
 
-  
   <main>
-    
     <div class="hero">
       <img src="images/bacground.jpg" alt="Rafting Adventure Background">
       <h1>Whitewater Rafting Adventures</h1>
@@ -38,26 +33,46 @@
       </article>
     </div>
 
-    
     <section>
       <h2>History</h2>
-      <p>Founded in 1990, Whitewater Rafting Adventures has been bringing thrill-seekers together for over 30 years. Our experienced guides and top-notch equipment ensure a safe and exciting experience for all our guests.</p>
+      <div class="history-container">
+        <div class="history-text">
+          <p>Founded in 1990, Whitewater Rafting Adventures has been bringing thrill-seekers together for over 30 years. Our experienced guides and top-notch equipment ensure a safe and exciting experience for all our guests.</p>
+        </div>
+        <img src="images/happy.jpg" alt="Rafting Adventure Image" class="history-image">
+        <div class="history-text">
+          <p>Throughout the years, we've expanded our reach to several rivers, each offering its own unique challenges and breathtaking landscapes. Join us on the next great adventure!</p>
+        </div>
+      </div>
     </section>
 
-    
     <section>
       <h2>Adventure Awaits You!</h2>
       <div class="adventure-gallery">
-        <img src="images/happy.jpg" alt="Rafting Adventure 1">
-        <img src="images/water.jpg" alt="Rafting Adventure 2">
-        <img src="images/rafting.jpg" alt="Rafting Adventure 3">
-        <img src="images/mountain.jpg" alt="Rafting Adventure 4">
-        <img src="images/boats.jpg" alt="Rafting Adventure 5">
+        <figure>
+          <img src="images/happy.jpg" alt="Rafting Adventure 1">
+          <figcaption>happy people </figcaption>
+        </figure>
+        <figure>
+          <img src="images/water.jpg" alt="Rafting Adventure 2">
+          <figcaption>people in water</figcaption>
+        </figure>
+        <figure>
+          <img src="images/rafting.jpg" alt="Rafting Adventure 3">
+          <figcaption>Half Day Adventure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/mountain.jpg" alt="Rafting Adventure 4">
+          <figcaption>Mountain Rapids</figcaption>
+        </figure>
+        <figure>
+          <img src="images/boats.jpg" alt="Rafting Adventure 5">
+          <figcaption>River of Dreams</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
-  
   <footer>
     <p>&copy; 2024 Whitewater Rafting Adventures | All Rights Reserved</p>
     <nav class="sociallinks">
@@ -74,4 +89,3 @@
   </footer>
 </body>
 </html>
-
