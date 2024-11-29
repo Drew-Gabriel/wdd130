@@ -21,7 +21,7 @@ h1, h2 {
   --primary-color: #00bfae;
   --secondary-color: #0e103d;
   --accent1-color: #ff6f61;
-  --accent2-color: #69306d;
+  --accent2-color: #69306d;+
 }
 
 /* Header Styles */
@@ -174,4 +174,68 @@ footer .sociallinks a {
 
 footer .sociallinks a:hover {
   opacity: 0.7;
+}
+
+
+.contact-info {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1.1rem;
+}
+
+.map {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.team-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 20px auto;
+}
+
+.team-gallery img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-gallery figcaption {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: var(--accent1-color);
 }
