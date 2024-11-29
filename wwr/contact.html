@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Whitewater Rafting</title>
+  <meta name="description" content="Get in touch with Whitewater Rafting Adventures. Contact us for inquiries, reservations, or feedback.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/crossedoars.jpeg" alt="Whitewater Rafting Logo" id="logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h1>Contact Us</h1>
+      <div class="contact-info">
+        <p><strong>Address:</strong> 185, Benin City, 300001</p>
+        <p><strong>Phone:</strong> +234 806 950 6131</p>
+        <p><strong>Email:</strong> gabjaz@gmail.com</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.754682948429!2d-122.08385158467684!3d37.38605197983073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb24b5ae41c3d%3A0x7f37b679cb0b4cf9!2sGoogleplex!5e0!3m2!1sen!2sus!4v1615213444824!5m2!1sen!2sus" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+      </div>
+    </section>
+
+    <section>
+      <h2>Meet Our Team</h2>
+      <div class="team-gallery">
+        <figure>
+          <img src="images/michael.jpg" alt="Employee 1">
+          <figcaption> Michael Benson- Senior Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/elvis.jpg" alt="Employee 2">
+          <figcaption>Elvis- Operations Manager</figcaption>
+        </figure>
+        <figure>
+          <img src="images/kael.jpg" alt="Employee 3">
+          <figcaption>Kael Benson - Customer Support</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2>Send Us a Message</h2>
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <p>Purpose of Message:</p>
+        <div>
+          <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+          <label for="general">General Inquiry</label>
+        </div>
+        <div>
+          <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+          <label for="reservation">Reservation Question</label>
+        </div>
+        <div>
+          <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+          <label for="suggestion">Website Suggestion</label>
+        </div>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <div>
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Whitewater Rafting Adventures | All Rights Reserved</p>
+    <nav class="sociallinks">
+      <a href="https://facebook.com">
+        <img src="images/facebook.jpg" alt="Facebook">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.jpg" alt="Twitter">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.jpg" alt="Instagram">
+      </a>
+    </nav>
+    <p><a href="wireframes/contact-us-wireframe.png">View Wireframe</a></p>
+  </footer>
+</body>
+</html>
