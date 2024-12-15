@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whitewater Rafting Adventure</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
- 
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Whitewater Rafting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
+
 <body>
-    <header>
-        <img src="images/crossedoars.jpeg" alt="Whitewater Rafting Logo" class="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="wwr/about.html">About Us</a>
-            <a href="#">Trips</a>
-            <a href="#">Contact Us</a>
-        </nav>
-    </header>
+  <header>
+    <div class="header-container">
+      <img src="images/crossedoars.jpeg" alt="Whitewater Rafting Logo" id="logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <section class="hero">
-            <h1>Welcome to Whitewater Rafting Adventure!</h1>
-            <p>Experience the thrill of a lifetime with our exciting rafting trips.</p>
-            <a href="#" class="cta-button">Book Your Adventure</a>
-        </section>
+  <main>
+    <!-- Hero Section -->
+    <div class="hero">
+      <img src="images/hero-background.jpg" alt="Rafting Adventure Background">
+      <h1>Embark on the Ultimate Adventure!</h1>
+    </div>
 
-        <section class="trips">
-            <h2>Our Trips</h2>
-            <div class="trip">
-                <h3>Beginner's River</h3>
-                <p>A perfect trip for first-timers. Gentle waters and beautiful scenery await!</p>
-            </div>
-            <div class="trip">
-                <h3>Intermediate Rapids</h3>
-                <p>For those who want to test their skills. Moderate rapids and thrilling excitement!</p>
-            </div>
-            <div class="trip">
-                <h3>Advanced Rapids</h3>
-                <p>For the adrenaline junkies. Challenging rapids and intense adventure!</p>
-            </div>
-        </section>
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <div class="newsletter-content">
+        <h2>Stay Updated on the Latest Adventures</h2>
+        <p>Sign up for our newsletter to get the latest rafting news and special offers directly in your inbox.</p>
+        <form action="#" method="POST" class="newsletter-form">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Your Full Name">
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Your Email Address">
+          
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </section>
 
-        <section class="about">
-            <h2>About Us</h2>
-            <p>We are passionate about whitewater rafting and offer safe, fun-filled adventures for everyone. Our guides are experienced and knowledgeable, ensuring you have a memorable trip.</p>
-        </section>
-    </main>
+    <!-- Call to Action Section -->
+    <section class="cta">
+      <h2>Ready for Your Next Adventure?</h2>
+      <p>Join us for thrilling rafting trips on wild rivers. Explore our exciting rafting packages!</p>
+      <a href="trips.html" class="cta-button">Explore Our Trips</a>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 Whitewater Rafting Adventure | All rights reserved</p>
-    </footer>
+    <!-- About Whitewater Rafting -->
+    <section class="about-section">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>Why Choose Us?</h2>
+          <p>With over 30 years of experience, Whitewater Rafting Adventures offers the best rafting experiences. Our professional guides and top-of-the-line equipment ensure you have a safe, fun, and thrilling adventure.</p>
+        </div>
+        <img src="images/rafting-guide.jpg" alt="Rafting Guide" class="about-image">
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-container">
+        <img src="images/rafting-group.jpg" alt="Rafting Group" class="about-image">
+        <div class="about-text">
+          <h2>What We Offer</h2>
+          <p>We offer a wide variety of rafting trips, from calm scenic floats to wild whitewater rapids. Choose from half-day, full-day, or multi-day adventures, all designed to suit different levels of experience and excitement.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Whitewater Rafting Adventures | All Rights Reserved</p>
+    <nav class="sociallinks">
+      <a href="https://facebook.com">
+        <img src="images/facebook.jpg" alt="Facebook">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.jpg" alt="Twitter">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.jpg" alt="Instagram">
+      </a>
+    </nav>
+  </footer>
 </body>
 </html>
-
